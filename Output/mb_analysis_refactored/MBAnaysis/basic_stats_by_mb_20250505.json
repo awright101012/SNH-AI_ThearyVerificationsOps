@@ -1,0 +1,130 @@
+{
+    "tat_calendar_days_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 4.5734326664435,
+            "median": 2.0,
+            "std": 6.865244764722221
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 4.427973998818128,
+            "median": 3.0,
+            "std": 3.480098267741567
+        }
+    ],
+    "tat_business_days_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 3.372703337298111,
+            "median": 2.0,
+            "std": 4.616075056640194
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 3.41915541615528,
+            "median": 3.0,
+            "std": 2.4519008539130196
+        }
+    ],
+    "attempts_by_row_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 11.596815357696535,
+            "median": 10.0,
+            "std": 21.722003704311042
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 12.639619982726488,
+            "median": 11.0,
+            "std": 10.938240255308655
+        }
+    ],
+    "maxminusapplicant_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 11.376259766529206,
+            "median": 9.0,
+            "std": 21.603054400454095
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 12.318605391154144,
+            "median": 11.0,
+            "std": 10.674514647981491
+        }
+    ],
+    "distinct_applicant_contact_count_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 0.22055559116733023,
+            "median": 0.0,
+            "std": 0.9347051835359397
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 0.3210145915723442,
+            "median": 0.0,
+            "std": 1.1056762635335988
+        }
+    ],
+    "total_contacts_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 2.013955179780899,
+            "median": 1.0,
+            "std": 3.147065904843508
+        }
+    ],
+    "email_interaction_count_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 0.20850947770353198,
+            "median": 0.0,
+            "std": 0.5350080497695409
+        }
+    ],
+    "email_method_count_by_mb_touch": [
+        {
+            "mb_touched": 0,
+            "count": 421209,
+            "mean": 0.9552431215857211,
+            "median": 0.0,
+            "std": 1.912341203046327
+        },
+        {
+            "mb_touched": 1,
+            "count": 21999,
+            "mean": 1.4718396290740487,
+            "median": 0.0,
+            "std": 2.2064784957124783
+        }
+    ]
+}

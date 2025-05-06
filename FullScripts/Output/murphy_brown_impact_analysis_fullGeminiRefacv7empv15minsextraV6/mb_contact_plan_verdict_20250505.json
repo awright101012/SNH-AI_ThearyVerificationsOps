@@ -1,0 +1,10 @@
+{
+    "tat_ok": false,
+    "tat_p_value": 1.6031679747543718e-155,
+    "completion_ok": false,
+    "completion_diff_pp": 0.0,
+    "attempts_ok": true,
+    "attempts_diff": -0.27551478771328597,
+    "overall_good": false,
+    "reason": "OK"
+}

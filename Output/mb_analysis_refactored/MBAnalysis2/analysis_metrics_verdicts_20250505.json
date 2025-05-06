@@ -1,0 +1,5470 @@
+{
+    "basic_stats": {
+        "tat_calendar_days_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 4.5734326664435,
+                "median": 2.0,
+                "std": 6.865244764722221
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 4.427973998818128,
+                "median": 3.0,
+                "std": 3.480098267741567
+            }
+        ],
+        "tat_business_days_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 3.372703337298111,
+                "median": 2.0,
+                "std": 4.616075056640194
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 3.41915541615528,
+                "median": 3.0,
+                "std": 2.4519008539130196
+            }
+        ],
+        "attempts_by_row_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 11.596815357696535,
+                "median": 10.0,
+                "std": 21.722003704311042
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 12.639619982726488,
+                "median": 11.0,
+                "std": 10.938240255308655
+            }
+        ],
+        "maxminusapplicant_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 11.376259766529206,
+                "median": 9.0,
+                "std": 21.603054400454095
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 12.318605391154144,
+                "median": 11.0,
+                "std": 10.674514647981491
+            }
+        ],
+        "distinct_applicant_contact_count_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 0.22055559116733023,
+                "median": 0.0,
+                "std": 0.9347051835359397
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 0.3210145915723442,
+                "median": 0.0,
+                "std": 1.1056762635335988
+            }
+        ],
+        "total_contacts_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 0.0,
+                "median": 0.0,
+                "std": 0.0
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 2.013955179780899,
+                "median": 1.0,
+                "std": 3.147065904843508
+            }
+        ],
+        "email_interaction_count_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 0.0,
+                "median": 0.0,
+                "std": 0.0
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 0.20850947770353198,
+                "median": 0.0,
+                "std": 0.5350080497695409
+            }
+        ],
+        "email_method_count_by_mb_touch": [
+            {
+                "mb_touched": 0,
+                "count": 421209,
+                "mean": 0.9552431215857211,
+                "median": 0.0,
+                "std": 1.912341203046327
+            },
+            {
+                "mb_touched": 1,
+                "count": 21999,
+                "mean": 1.4718396290740487,
+                "median": 0.0,
+                "std": 2.2064784957124783
+            }
+        ]
+    },
+    "autonomy_summary": {
+        "avg_human_touches_overall": 11.575898900741864,
+        "autonomy_rate_overall": 0.0,
+        "rework_rate_mb_only": 98.01354607027592,
+        "fallback_rate_mb_only": 97.71353243329243
+    },
+    "time_savings": {
+        "metric_used": "human_touch_count",
+        "avg_metric_mb": 11.175417064412018,
+        "avg_metric_ctl": 11.596815357696535,
+        "metric_reduction": 0.4213982932845166,
+        "hours_saved_per_verification": 0.14046609776150554,
+        "mb_verification_count": 21999,
+        "total_hours_saved": 3090.1136846553604,
+        "analysis_period_weeks": 30.428571428571427,
+        "weekly_hours_saved": 101.55303189008227,
+        "fte_equivalent": 2.5388257972520565
+    },
+    "statistical_tests": {
+        "tat_calendar_days": {
+            "description": "TAT (Calendar Days)",
+            "t_statistic": -5.651598657802806,
+            "p_value": 1.6032190739005163e-08,
+            "significant": "True",
+            "mb_mean": 4.427973998818128,
+            "ctl_mean": 4.5734326664435,
+            "mb_n": 21999,
+            "ctl_n": 421209
+        },
+        "tat_business_days": {
+            "description": "TAT (Business Days)",
+            "t_statistic": 2.5812091201967604,
+            "p_value": 0.009850065433968295,
+            "significant": "True",
+            "mb_mean": 3.41915541615528,
+            "ctl_mean": 3.372703337298111,
+            "mb_n": 21999,
+            "ctl_n": 421209
+        },
+        "attempts_by_row": {
+            "description": "Attempts per Verification",
+            "t_statistic": 12.876213836127917,
+            "p_value": 7.612503770945456e-38,
+            "significant": "True",
+            "mb_mean": 12.639619982726488,
+            "ctl_mean": 11.596815357696535,
+            "mb_n": 21999,
+            "ctl_n": 421209
+        },
+        "maxminusapplicant": {
+            "description": "Non-Applicant Attempts",
+            "t_statistic": 11.88418979547519,
+            "p_value": 1.671477620389485e-32,
+            "significant": "True",
+            "mb_mean": 12.318605391154144,
+            "ctl_mean": 11.376259766529206,
+            "mb_n": 21999,
+            "ctl_n": 421209
+        },
+        "email_yield": {
+            "description": "Email Yield",
+            "error": "Test could not be performed (insufficient data or zero variance)",
+            "mb_mean": 0.13216443837399153,
+            "ctl_mean": 0.0,
+            "mb_n": 9148,
+            "ctl_n": 131918
+        }
+    },
+    "contact_plan_delta": [
+        {
+            "contact_plan_provided": false,
+            "search_count": 426959,
+            "completion_rate": 1.0,
+            "avg_tat_days": 4.590326003199371,
+            "avg_attempts_by_row": 11.658676828454254,
+            "delta_completion_rate": null,
+            "delta_tat_days": null,
+            "delta_attempts": null
+        },
+        {
+            "contact_plan_provided": true,
+            "search_count": 16249,
+            "completion_rate": 1.0,
+            "avg_tat_days": 3.9326112376146223,
+            "avg_attempts_by_row": 11.383162040740968,
+            "delta_completion_rate": 0.0,
+            "delta_tat_days": -0.6577147655847484,
+            "delta_attempts": -0.27551478771328597
+        }
+    ],
+    "contact_plan_verdict": {
+        "tat_ok": "False",
+        "completion_ok": "False",
+        "attempts_ok": "True",
+        "overall_good": "False",
+        "delta_tat_days": -0.6577147655847484,
+        "tat_p_value": 1.6031679747543718e-155,
+        "delta_completion_pp": 0.0,
+        "delta_attempts": -0.27551478771328597,
+        "reason": "OK"
+    },
+    "verdicts": {
+        "email_performance": {
+            "verdict": false,
+            "mb_yield": 0.13216443837399153,
+            "ctl_yield": 0.0,
+            "diff_pp": 13.216443837399153,
+            "p_value": null,
+            "reason": "Insufficient data (MB: 9148, CTL: 131918) or zero variance"
+        },
+        "contact_plan": {
+            "tat_ok": "False",
+            "completion_ok": "False",
+            "attempts_ok": "True",
+            "overall_good": "False",
+            "delta_tat_days": -0.6577147655847484,
+            "tat_p_value": 1.6031679747543718e-155,
+            "delta_completion_pp": 0.0,
+            "delta_attempts": -0.27551478771328597,
+            "reason": "OK"
+        }
+    },
+    "agent_office_metrics": {
+        "verified_by_agent_week": [
+            {
+                "agentname": "",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 16353
+            },
+            {
+                "agentname": "",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 14796
+            },
+            {
+                "agentname": "",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 15018
+            },
+            {
+                "agentname": "",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 15448
+            },
+            {
+                "agentname": "",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 15262
+            },
+            {
+                "agentname": "",
+                "week": "2024-11-05/2024-11-11",
+                "verified_count": 11339
+            },
+            {
+                "agentname": "",
+                "week": "2024-11-12/2024-11-18",
+                "verified_count": 17532
+            },
+            {
+                "agentname": "",
+                "week": "2024-11-19/2024-11-25",
+                "verified_count": 15395
+            },
+            {
+                "agentname": "",
+                "week": "2024-11-26/2024-12-02",
+                "verified_count": 9890
+            },
+            {
+                "agentname": "",
+                "week": "2024-12-03/2024-12-09",
+                "verified_count": 14350
+            },
+            {
+                "agentname": "",
+                "week": "2024-12-10/2024-12-16",
+                "verified_count": 15563
+            },
+            {
+                "agentname": "",
+                "week": "2024-12-17/2024-12-23",
+                "verified_count": 15379
+            },
+            {
+                "agentname": "",
+                "week": "2024-12-24/2024-12-30",
+                "verified_count": 8947
+            },
+            {
+                "agentname": "",
+                "week": "2024-12-31/2025-01-06",
+                "verified_count": 9645
+            },
+            {
+                "agentname": "",
+                "week": "2025-01-07/2025-01-13",
+                "verified_count": 13697
+            },
+            {
+                "agentname": "",
+                "week": "2025-01-14/2025-01-20",
+                "verified_count": 11819
+            },
+            {
+                "agentname": "",
+                "week": "2025-01-21/2025-01-27",
+                "verified_count": 16203
+            },
+            {
+                "agentname": "",
+                "week": "2025-01-28/2025-02-03",
+                "verified_count": 14728
+            },
+            {
+                "agentname": "",
+                "week": "2025-02-04/2025-02-10",
+                "verified_count": 14960
+            },
+            {
+                "agentname": "",
+                "week": "2025-02-11/2025-02-17",
+                "verified_count": 11790
+            },
+            {
+                "agentname": "",
+                "week": "2025-02-18/2025-02-24",
+                "verified_count": 16221
+            },
+            {
+                "agentname": "",
+                "week": "2025-02-25/2025-03-03",
+                "verified_count": 15213
+            },
+            {
+                "agentname": "",
+                "week": "2025-03-04/2025-03-10",
+                "verified_count": 14927
+            },
+            {
+                "agentname": "",
+                "week": "2025-03-11/2025-03-17",
+                "verified_count": 14546
+            },
+            {
+                "agentname": "",
+                "week": "2025-03-18/2025-03-24",
+                "verified_count": 14699
+            },
+            {
+                "agentname": "",
+                "week": "2025-03-25/2025-03-31",
+                "verified_count": 14556
+            },
+            {
+                "agentname": "",
+                "week": "2025-04-01/2025-04-07",
+                "verified_count": 14881
+            },
+            {
+                "agentname": "",
+                "week": "2025-04-08/2025-04-14",
+                "verified_count": 15563
+            },
+            {
+                "agentname": "",
+                "week": "2025-04-15/2025-04-21",
+                "verified_count": 15091
+            },
+            {
+                "agentname": "",
+                "week": "2025-04-22/2025-04-28",
+                "verified_count": 15879
+            },
+            {
+                "agentname": "",
+                "week": "2025-04-29/2025-05-05",
+                "verified_count": 13170
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Yellampalli",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Akshay Dharne",
+                "week": "2025-01-07/2025-01-13",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Alicia Hedell",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Alicia Hedell",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Altamash Shaikh",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Amanda Lusby",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ana Gamez",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aniruddha Pawar",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anurag Sharma",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anurag Sharma",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Arif Shah",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Arif Shah",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Ashley Yuhas",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "week": "2024-11-19/2024-11-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Atharva Pandire",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Bethany DeFiore",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "week": "2025-03-11/2025-03-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Breanna Johns",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "week": "2025-04-29/2025-05-05",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "week": "2024-12-03/2024-12-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Catherine Tyson",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Daniel Panikar",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Danielle Marcoux",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "DavidJ Monceaux",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Deborah Simons",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Devanshi Valodra",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Devanshi Valodra",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Dhruv mishra",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Donna Villacis",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Eric Brown",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Eric Brown",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Faizan Mullaji",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Faizan Mullaji",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Francis Timmerman",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Gabriel Levario",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ganesh Singarum",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ganesh Singarum",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jeevan Kalbhor",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "John Carter",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jona Domino",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Julie Adams",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Julie Adams",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Julie Adams",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "week": "2024-11-19/2024-11-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Kimberly Korth",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Korth",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Lakeyla Gause",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Linda Alexander",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Lucas Michels",
+                "week": "2024-12-31/2025-01-06",
+                "verified_count": 1
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "week": "2025-01-28/2025-02-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Megan Anderson",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 21
+            },
+            {
+                "agentname": "Mihir Singh",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Mihir Singh",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Morgan White",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "week": "2024-12-03/2024-12-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Murphy Brown",
+                "week": "2025-04-08/2025-04-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Murphy Brown",
+                "week": "2025-04-22/2025-04-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Neelam N",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Neelam N",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nikita Ichake",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nisha Tupe",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitin Jharia",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Olivia Olson",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Olivia Olson",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Omkar Todankar",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Omkar Todankar",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Patience Anderson",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 14
+            },
+            {
+                "agentname": "Patience Anderson",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Priti Tambe",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Priti Tambe",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rahul Chugh",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Rahul Chugh",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raj Thakare",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Raj Thakare",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ravindra Bhosale",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raymond Engfer",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Rhylie McDonald",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Richele Allen",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Richele Allen",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Richele Allen",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rukaiya Sayyed",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sahil Patil",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sahil Patil",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandip Keer",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 9
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-11-05/2024-11-11",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-11-19/2024-11-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2024-12-10/2024-12-16",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2025-03-04/2025-03-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "week": "2025-03-18/2025-03-24",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shaniqua Adams",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Shreyash Thorat",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Shubham Mhatre",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 8
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-10-29/2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-11-05/2024-11-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2024-11-12/2024-11-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "week": "2025-01-21/2025-01-27",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sneha Prakash",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Souvik Das",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Subaan Falak",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "week": "2024-11-19/2024-11-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 14
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "week": "2024-10-22/2024-10-28",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "week": "2025-03-25/2025-03-31",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tripti Singh",
+                "week": "2024-10-15/2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "week": "2024-10-08/2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Vikas Jha",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Vipul Navadkar",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Yash Jagtap",
+                "week": "2024-10-01/2024-10-07",
+                "verified_count": 4
+            }
+        ],
+        "verified_by_agent_month": [
+            {
+                "agentname": "",
+                "month": "2024-10",
+                "verified_count": 71023
+            },
+            {
+                "agentname": "",
+                "month": "2024-11",
+                "verified_count": 56313
+            },
+            {
+                "agentname": "",
+                "month": "2024-12",
+                "verified_count": 60220
+            },
+            {
+                "agentname": "",
+                "month": "2025-01",
+                "verified_count": 60872
+            },
+            {
+                "agentname": "",
+                "month": "2025-02",
+                "verified_count": 57965
+            },
+            {
+                "agentname": "",
+                "month": "2025-03",
+                "verified_count": 61883
+            },
+            {
+                "agentname": "",
+                "month": "2025-04",
+                "verified_count": 71062
+            },
+            {
+                "agentname": "",
+                "month": "2025-05",
+                "verified_count": 3522
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Aishwarya Yellampalli",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Akshay Dharne",
+                "month": "2025-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Alicia Hedell",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Altamash Shaikh",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Amanda Lusby",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ana Gamez",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Angel Janus",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Aniruddha Pawar",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Anurag Sharma",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Arif Shah",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Ashley Yuhas",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "month": "2024-10",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "month": "2024-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Atharva Pandire",
+                "month": "2024-10",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Bethany DeFiore",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "month": "2025-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Breanna Johns",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "month": "2025-05",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "month": "2024-10",
+                "verified_count": 8
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "month": "2024-12",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Catherine Tyson",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Daniel Panikar",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Danielle Marcoux",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "DavidJ Monceaux",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Deborah Simons",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Devanshi Valodra",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Dhruv mishra",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Donna Villacis",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Eric Brown",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Faizan Mullaji",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Francis Timmerman",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Gabriel Levario",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ganesh Singarum",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Jeevan Kalbhor",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "John Carter",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jona Domino",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Julie Adams",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "month": "2024-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "month": "2024-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "month": "2024-10",
+                "verified_count": 9
+            },
+            {
+                "agentname": "Kimberly Korth",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Lakeyla Gause",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Linda Alexander",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Lucas Michels",
+                "month": "2025-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "month": "2025-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Megan Anderson",
+                "month": "2024-10",
+                "verified_count": 21
+            },
+            {
+                "agentname": "Mihir Singh",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Morgan White",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Morgan White",
+                "month": "2024-12",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Murphy Brown",
+                "month": "2025-04",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Neelam N",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Nikita Ichake",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nisha Tupe",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Nitin Jharia",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Olivia Olson",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Omkar Todankar",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Patience Anderson",
+                "month": "2024-10",
+                "verified_count": 16
+            },
+            {
+                "agentname": "Priti Tambe",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Rahul Chugh",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Raj Thakare",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "month": "2024-10",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Ravindra Bhosale",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raymond Engfer",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Rhylie McDonald",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Richele Allen",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Rukaiya Sayyed",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sahil Patil",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandip Keer",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "month": "2024-10",
+                "verified_count": 16
+            },
+            {
+                "agentname": "Sandra Race",
+                "month": "2024-11",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Sandra Race",
+                "month": "2024-12",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "month": "2025-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "month": "2024-10",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Shaniqua Adams",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Shreyash Thorat",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Shubham Mhatre",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "month": "2024-10",
+                "verified_count": 11
+            },
+            {
+                "agentname": "Sidney Carter",
+                "month": "2024-11",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sidney Carter",
+                "month": "2025-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sneha Prakash",
+                "month": "2024-10",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Souvik Das",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Subaan Falak",
+                "month": "2024-10",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "month": "2024-10",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "month": "2024-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "month": "2024-10",
+                "verified_count": 22
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "month": "2025-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tripti Singh",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "month": "2024-10",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Vikas Jha",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Vipul Navadkar",
+                "month": "2024-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Yash Jagtap",
+                "month": "2024-10",
+                "verified_count": 4
+            }
+        ],
+        "verified_by_agent_day": [
+            {
+                "agentname": "",
+                "day": "2024-10-01",
+                "verified_count": 4101
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-02",
+                "verified_count": 3040
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-03",
+                "verified_count": 3104
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-04",
+                "verified_count": 2744
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-05",
+                "verified_count": 8
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-06",
+                "verified_count": 9
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-07",
+                "verified_count": 3347
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-08",
+                "verified_count": 3110
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-09",
+                "verified_count": 3013
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-10",
+                "verified_count": 2852
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-11",
+                "verified_count": 2748
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-12",
+                "verified_count": 22
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-13",
+                "verified_count": 26
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-14",
+                "verified_count": 3025
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-15",
+                "verified_count": 3263
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-16",
+                "verified_count": 3344
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-17",
+                "verified_count": 2835
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-18",
+                "verified_count": 2681
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-19",
+                "verified_count": 7
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-20",
+                "verified_count": 2
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-21",
+                "verified_count": 2886
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-22",
+                "verified_count": 3282
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-23",
+                "verified_count": 3125
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-24",
+                "verified_count": 2638
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-25",
+                "verified_count": 2894
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-26",
+                "verified_count": 7
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-27",
+                "verified_count": 9
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-28",
+                "verified_count": 3493
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-29",
+                "verified_count": 3281
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-30",
+                "verified_count": 3143
+            },
+            {
+                "agentname": "",
+                "day": "2024-10-31",
+                "verified_count": 2984
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-01",
+                "verified_count": 2672
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-02",
+                "verified_count": 12
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-03",
+                "verified_count": 15
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-04",
+                "verified_count": 3155
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-05",
+                "verified_count": 3064
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-06",
+                "verified_count": 2983
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-07",
+                "verified_count": 2667
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-08",
+                "verified_count": 2557
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-09",
+                "verified_count": 20
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-10",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-11",
+                "verified_count": 37
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-12",
+                "verified_count": 3684
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-13",
+                "verified_count": 3638
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-14",
+                "verified_count": 3663
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-15",
+                "verified_count": 3050
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-16",
+                "verified_count": 13
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-17",
+                "verified_count": 14
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-18",
+                "verified_count": 3470
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-19",
+                "verified_count": 3212
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-20",
+                "verified_count": 3288
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-21",
+                "verified_count": 2847
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-22",
+                "verified_count": 2889
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-23",
+                "verified_count": 14
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-24",
+                "verified_count": 13
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-25",
+                "verified_count": 3132
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-26",
+                "verified_count": 3121
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-27",
+                "verified_count": 2658
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-28",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-29",
+                "verified_count": 21
+            },
+            {
+                "agentname": "",
+                "day": "2024-11-30",
+                "verified_count": 382
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-01",
+                "verified_count": 4
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-02",
+                "verified_count": 3693
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-03",
+                "verified_count": 3147
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-04",
+                "verified_count": 2984
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-05",
+                "verified_count": 2808
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-06",
+                "verified_count": 2555
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-07",
+                "verified_count": 18
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-08",
+                "verified_count": 17
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-09",
+                "verified_count": 2821
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-10",
+                "verified_count": 3339
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-11",
+                "verified_count": 2970
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-12",
+                "verified_count": 3210
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-13",
+                "verified_count": 2839
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-14",
+                "verified_count": 7
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-15",
+                "verified_count": 13
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-16",
+                "verified_count": 3185
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-17",
+                "verified_count": 3183
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-18",
+                "verified_count": 2981
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-19",
+                "verified_count": 3265
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-20",
+                "verified_count": 3085
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-21",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-22",
+                "verified_count": 18
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-23",
+                "verified_count": 2836
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-24",
+                "verified_count": 2100
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-25",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-26",
+                "verified_count": 2229
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-27",
+                "verified_count": 2057
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-28",
+                "verified_count": 6
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-29",
+                "verified_count": 9
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-30",
+                "verified_count": 2535
+            },
+            {
+                "agentname": "",
+                "day": "2024-12-31",
+                "verified_count": 2284
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-01",
+                "verified_count": 9
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-02",
+                "verified_count": 2581
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-03",
+                "verified_count": 2313
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-04",
+                "verified_count": 14
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-05",
+                "verified_count": 9
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-06",
+                "verified_count": 2435
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-07",
+                "verified_count": 2910
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-08",
+                "verified_count": 2858
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-09",
+                "verified_count": 2640
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-10",
+                "verified_count": 2224
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-11",
+                "verified_count": 10
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-12",
+                "verified_count": 18
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-13",
+                "verified_count": 3037
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-14",
+                "verified_count": 3151
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-15",
+                "verified_count": 2891
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-16",
+                "verified_count": 2759
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-17",
+                "verified_count": 2955
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-18",
+                "verified_count": 10
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-19",
+                "verified_count": 15
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-20",
+                "verified_count": 38
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-21",
+                "verified_count": 3697
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-22",
+                "verified_count": 2886
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-23",
+                "verified_count": 3039
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-24",
+                "verified_count": 3329
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-25",
+                "verified_count": 14
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-26",
+                "verified_count": 14
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-27",
+                "verified_count": 3224
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-28",
+                "verified_count": 3227
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-29",
+                "verified_count": 2783
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-30",
+                "verified_count": 2869
+            },
+            {
+                "agentname": "",
+                "day": "2025-01-31",
+                "verified_count": 2913
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-01",
+                "verified_count": 16
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-02",
+                "verified_count": 12
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-03",
+                "verified_count": 2908
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-04",
+                "verified_count": 3152
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-05",
+                "verified_count": 3002
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-06",
+                "verified_count": 2933
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-07",
+                "verified_count": 2624
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-08",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-09",
+                "verified_count": 13
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-10",
+                "verified_count": 3225
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-11",
+                "verified_count": 3282
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-12",
+                "verified_count": 2681
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-13",
+                "verified_count": 2969
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-14",
+                "verified_count": 2778
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-15",
+                "verified_count": 6
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-16",
+                "verified_count": 17
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-17",
+                "verified_count": 57
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-18",
+                "verified_count": 3470
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-19",
+                "verified_count": 3091
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-20",
+                "verified_count": 3296
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-21",
+                "verified_count": 2958
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-22",
+                "verified_count": 21
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-23",
+                "verified_count": 24
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-24",
+                "verified_count": 3361
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-25",
+                "verified_count": 3136
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-26",
+                "verified_count": 3107
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-27",
+                "verified_count": 2799
+            },
+            {
+                "agentname": "",
+                "day": "2025-02-28",
+                "verified_count": 3016
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-01",
+                "verified_count": 28
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-02",
+                "verified_count": 16
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-03",
+                "verified_count": 3111
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-04",
+                "verified_count": 3042
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-05",
+                "verified_count": 2789
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-06",
+                "verified_count": 3048
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-07",
+                "verified_count": 2858
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-08",
+                "verified_count": 11
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-09",
+                "verified_count": 16
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-10",
+                "verified_count": 3163
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-11",
+                "verified_count": 3212
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-12",
+                "verified_count": 2846
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-13",
+                "verified_count": 2596
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-14",
+                "verified_count": 2662
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-15",
+                "verified_count": 20
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-16",
+                "verified_count": 15
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-17",
+                "verified_count": 3195
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-18",
+                "verified_count": 2994
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-19",
+                "verified_count": 2925
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-20",
+                "verified_count": 2692
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-21",
+                "verified_count": 2834
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-22",
+                "verified_count": 10
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-23",
+                "verified_count": 12
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-24",
+                "verified_count": 3232
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-25",
+                "verified_count": 2446
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-26",
+                "verified_count": 3219
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-27",
+                "verified_count": 2940
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-28",
+                "verified_count": 2844
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-29",
+                "verified_count": 10
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-30",
+                "verified_count": 8
+            },
+            {
+                "agentname": "",
+                "day": "2025-03-31",
+                "verified_count": 3089
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-01",
+                "verified_count": 2960
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-02",
+                "verified_count": 2871
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-03",
+                "verified_count": 2801
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-04",
+                "verified_count": 2814
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-05",
+                "verified_count": 10
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-06",
+                "verified_count": 13
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-07",
+                "verified_count": 3412
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-08",
+                "verified_count": 3145
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-09",
+                "verified_count": 3021
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-10",
+                "verified_count": 2900
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-11",
+                "verified_count": 2840
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-12",
+                "verified_count": 638
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-13",
+                "verified_count": 18
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-14",
+                "verified_count": 3001
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-15",
+                "verified_count": 3028
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-16",
+                "verified_count": 3046
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-17",
+                "verified_count": 2912
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-18",
+                "verified_count": 2529
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-19",
+                "verified_count": 588
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-20",
+                "verified_count": 19
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-21",
+                "verified_count": 2969
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-22",
+                "verified_count": 3240
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-23",
+                "verified_count": 2944
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-24",
+                "verified_count": 3137
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-25",
+                "verified_count": 3046
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-26",
+                "verified_count": 34
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-27",
+                "verified_count": 34
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-28",
+                "verified_count": 3444
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-29",
+                "verified_count": 3552
+            },
+            {
+                "agentname": "",
+                "day": "2025-04-30",
+                "verified_count": 6096
+            },
+            {
+                "agentname": "",
+                "day": "2025-05-01",
+                "verified_count": 3522
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Abhijit Sandlas",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Gotmare",
+                "day": "2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aishwarya Yellampalli",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Akshay Dharne",
+                "day": "2025-01-13",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Alicia Hedell",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Alicia Hedell",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Altamash Shaikh",
+                "day": "2024-10-24",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Amanda Lusby",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ana Gamez",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Andrea Chapel",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "day": "2024-10-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Angel Janus",
+                "day": "2024-10-23",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aniruddha Pawar",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Aniruddha Pawar",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anmol Londhe",
+                "day": "2024-10-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anurag Sharma",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Anurag Sharma",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Arif Shah",
+                "day": "2024-10-01",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Arif Shah",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Arif Shah",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Arif Shah",
+                "day": "2024-10-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ashley Yuhas",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "day": "2024-10-01",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Ashwita Rane",
+                "day": "2024-11-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Atharva Pandire",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Atharva Pandire",
+                "day": "2024-10-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Atharva Pandire",
+                "day": "2024-10-07",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Bethany DeFiore",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "day": "2024-10-04",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Bhavesh Gupta",
+                "day": "2025-03-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Breanna Johns",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brenda Nelson",
+                "day": "2025-05-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-10-14",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-10-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-10-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-10-31",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Brooklyn Fauss",
+                "day": "2024-12-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Catherine Tyson",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Catherine Tyson",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Catherine Tyson",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Daniel Panikar",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Daniel Panikar",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Danielle Marcoux",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "DavidJ Monceaux",
+                "day": "2024-10-23",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Deborah Simons",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Deborah Simons",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Devanshi Valodra",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Devanshi Valodra",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Dhruv mishra",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Dhruv mishra",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Donna Villacis",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Eric Brown",
+                "day": "2024-10-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Eric Brown",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Faizan Mullaji",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Faizan Mullaji",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Francis Timmerman",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Francis Timmerman",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Francis Timmerman",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Gabriel Levario",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ganesh Singarum",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ganesh Singarum",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jeevan Kalbhor",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "John Carter",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jona Domino",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Jona Domino",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Julie Adams",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Julie Adams",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Julie Adams",
+                "day": "2024-10-31",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kathy Ruzicka",
+                "day": "2024-11-19",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelli Young",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "day": "2024-10-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kelly Proctor",
+                "day": "2024-11-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Khushi Tiwari",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-01",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Gray Horst",
+                "day": "2024-10-21",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Korth",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Kimberly Korth",
+                "day": "2024-10-22",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Lakeyla Gause",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Linda Alexander",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Llajaira Quintana",
+                "day": "2024-10-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Lucas Michels",
+                "day": "2025-01-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "MacKenzie Richmond",
+                "day": "2024-10-08",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Marlene Bittner",
+                "day": "2025-01-30",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Maroof Sayyed",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Megan Anderson",
+                "day": "2024-10-01",
+                "verified_count": 13
+            },
+            {
+                "agentname": "Megan Anderson",
+                "day": "2024-10-02",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Megan Anderson",
+                "day": "2024-10-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Megan Anderson",
+                "day": "2024-10-04",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Mihir Singh",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Mihir Singh",
+                "day": "2024-10-15",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Mohan Thakur",
+                "day": "2024-10-16",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Morgan White",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "day": "2024-10-29",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Morgan White",
+                "day": "2024-12-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Murphy Brown",
+                "day": "2025-04-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Murphy Brown",
+                "day": "2025-04-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Murphy Brown",
+                "day": "2025-04-22",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Neelam N",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Neelam N",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Neelam N",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nikita Ichake",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nisha Tupe",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitesh Chiplunkar",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Nitin Jharia",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Olivia Olson",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Olivia Olson",
+                "day": "2024-10-03",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Olivia Olson",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Olivia Olson",
+                "day": "2024-10-08",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Omkar Todankar",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Omkar Todankar",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Pankaj Gaikwad",
+                "day": "2024-10-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-01",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-02",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-04",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Patience Anderson",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Priti Tambe",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Priti Tambe",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Priti Tambe",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rahul Chugh",
+                "day": "2024-10-01",
+                "verified_count": 5
+            },
+            {
+                "agentname": "Rahul Chugh",
+                "day": "2024-10-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raj Thakare",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raj Thakare",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raj Thakare",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "RajKumar Sehgal",
+                "day": "2024-10-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Ravindra Bhosale",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Raymond Engfer",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhea Sharma",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rhylie McDonald",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Richele Allen",
+                "day": "2024-10-01",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Richele Allen",
+                "day": "2024-10-09",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Richele Allen",
+                "day": "2024-10-17",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Rukaiya Sayyed",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sahil Patil",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sahil Patil",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandip Keer",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-11",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-17",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-18",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-22",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-29",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-30",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-10-31",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-11-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-11-05",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-11-19",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2024-12-13",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2025-03-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sandra Race",
+                "day": "2025-03-24",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "day": "2024-10-02",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Sanket Sawale",
+                "day": "2024-10-08",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shahbaz Khan",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shaniqua Adams",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Shaniqua Adams",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shaniqua Adams",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shreyash Thorat",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shreyash Thorat",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shreyash Thorat",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Shubham Mhatre",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-01",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-04",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-14",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-22",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-10-31",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-11-05",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2024-11-12",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sidney Carter",
+                "day": "2025-01-22",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sneha Prakash",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sneha Prakash",
+                "day": "2024-10-03",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Souvik Das",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Souvik Das",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Souvik Das",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Subaan Falak",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "day": "2024-10-02",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "day": "2024-10-04",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Sumit Thorat",
+                "day": "2024-11-25",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-02",
+                "verified_count": 4
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-03",
+                "verified_count": 6
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-04",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-07",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-09",
+                "verified_count": 3
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-16",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-18",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2024-10-24",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tricia Filippone",
+                "day": "2025-03-27",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Tripti Singh",
+                "day": "2024-10-15",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Veena Yarraguntala",
+                "day": "2024-10-10",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Vikas Jha",
+                "day": "2024-10-01",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Vipul Navadkar",
+                "day": "2024-10-03",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Yash Jagtap",
+                "day": "2024-10-01",
+                "verified_count": 2
+            },
+            {
+                "agentname": "Yash Jagtap",
+                "day": "2024-10-02",
+                "verified_count": 1
+            },
+            {
+                "agentname": "Yash Jagtap",
+                "day": "2024-10-04",
+                "verified_count": 1
+            }
+        ],
+        "monthly_completion_breakdowns": {
+            "Overall": [
+                {
+                    "month_period": "2024-10",
+                    "searchtype": "eduv",
+                    "completions": 26750
+                },
+                {
+                    "month_period": "2024-10",
+                    "searchtype": "empv",
+                    "completions": 44595
+                },
+                {
+                    "month_period": "2024-11",
+                    "searchtype": "eduv",
+                    "completions": 21124
+                },
+                {
+                    "month_period": "2024-11",
+                    "searchtype": "empv",
+                    "completions": 35200
+                },
+                {
+                    "month_period": "2024-12",
+                    "searchtype": "eduv",
+                    "completions": 21966
+                },
+                {
+                    "month_period": "2024-12",
+                    "searchtype": "empv",
+                    "completions": 38257
+                },
+                {
+                    "month_period": "2025-01",
+                    "searchtype": "eduv",
+                    "completions": 23914
+                },
+                {
+                    "month_period": "2025-01",
+                    "searchtype": "empv",
+                    "completions": 36962
+                },
+                {
+                    "month_period": "2025-02",
+                    "searchtype": "eduv",
+                    "completions": 21482
+                },
+                {
+                    "month_period": "2025-02",
+                    "searchtype": "empv",
+                    "completions": 36483
+                },
+                {
+                    "month_period": "2025-03",
+                    "searchtype": "eduv",
+                    "completions": 23060
+                },
+                {
+                    "month_period": "2025-03",
+                    "searchtype": "empv",
+                    "completions": 38827
+                },
+                {
+                    "month_period": "2025-04",
+                    "searchtype": "eduv",
+                    "completions": 27077
+                },
+                {
+                    "month_period": "2025-04",
+                    "searchtype": "empv",
+                    "completions": 43988
+                },
+                {
+                    "month_period": "2025-05",
+                    "searchtype": "eduv",
+                    "completions": 1656
+                },
+                {
+                    "month_period": "2025-05",
+                    "searchtype": "empv",
+                    "completions": 1867
+                }
+            ],
+            "By Agent": [
+                {
+                    "month_period": "2024-10",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 26629
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 44394
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Abhijit Sandlas",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Aishwarya Gotmare",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Aishwarya Gotmare",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Aishwarya Yellampalli",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Alicia Hedell",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Alicia Hedell",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Altamash Shaikh",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Amanda Lusby",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Ana Gamez",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Andrea Chapel",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Angel Janus",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Angel Janus",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Aniruddha Pawar",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Anmol Londhe",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Anurag Sharma",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Arif Shah",
+                    "searchtype": "empv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Ashley Yuhas",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Ashwita Rane",
+                    "searchtype": "empv",
+                    "completions": 5
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Atharva Pandire",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Atharva Pandire",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Bethany DeFiore",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Bhavesh Gupta",
+                    "searchtype": "empv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Breanna Johns",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Brenda Nelson",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Brooklyn Fauss",
+                    "searchtype": "eduv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Brooklyn Fauss",
+                    "searchtype": "empv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Catherine Tyson",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Daniel Panikar",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Danielle Marcoux",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "DavidJ Monceaux",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Deborah Simons",
+                    "searchtype": "eduv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Devanshi Valodra",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Dhruv mishra",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Donna Villacis",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Eric Brown",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Faizan Mullaji",
+                    "searchtype": "eduv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Francis Timmerman",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Gabriel Levario",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Ganesh Singarum",
+                    "searchtype": "eduv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Jeevan Kalbhor",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "John Carter",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Jona Domino",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Jona Domino",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Julie Adams",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kathy Ruzicka",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kelli Young",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kelly Proctor",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kelly Proctor",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Khushi Tiwari",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kimberly Gray Horst",
+                    "searchtype": "eduv",
+                    "completions": 9
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kimberly Korth",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Kimberly Korth",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Lakeyla Gause",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Linda Alexander",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Llajaira Quintana",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "MacKenzie Richmond",
+                    "searchtype": "eduv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "MacKenzie Richmond",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Marlene Bittner",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Maroof Sayyed",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Megan Anderson",
+                    "searchtype": "eduv",
+                    "completions": 13
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Megan Anderson",
+                    "searchtype": "empv",
+                    "completions": 8
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Mihir Singh",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Mohan Thakur",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Morgan White",
+                    "searchtype": "eduv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Neelam N",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Nikita Ichake",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Nisha Tupe",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Nitesh Chiplunkar",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Nitesh Chiplunkar",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Nitin Jharia",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Olivia Olson",
+                    "searchtype": "eduv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Omkar Todankar",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Pankaj Gaikwad",
+                    "searchtype": "eduv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Patience Anderson",
+                    "searchtype": "empv",
+                    "completions": 16
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Priti Tambe",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Rahul Chugh",
+                    "searchtype": "empv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Raj Thakare",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "RajKumar Sehgal",
+                    "searchtype": "eduv",
+                    "completions": 5
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Ravindra Bhosale",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Raymond Engfer",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Rhea Sharma",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Rhylie McDonald",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Richele Allen",
+                    "searchtype": "eduv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Richele Allen",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Rukaiya Sayyed",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sahil Patil",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sandip Keer",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sandra Race",
+                    "searchtype": "eduv",
+                    "completions": 16
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sanket Sawale",
+                    "searchtype": "empv",
+                    "completions": 6
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Shahbaz Khan",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Shaniqua Adams",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Shreyash Thorat",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Shubham Mhatre",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sidney Carter",
+                    "searchtype": "empv",
+                    "completions": 11
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sneha Prakash",
+                    "searchtype": "empv",
+                    "completions": 5
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Souvik Das",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Subaan Falak",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Sumit Thorat",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Tricia Filippone",
+                    "searchtype": "eduv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Tricia Filippone",
+                    "searchtype": "empv",
+                    "completions": 18
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Tripti Singh",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Veena Yarraguntala",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Vikas Jha",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Vipul Navadkar",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-10",
+                    "agentname": "Yash Jagtap",
+                    "searchtype": "empv",
+                    "completions": 4
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 21118
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 35195
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Ashwita Rane",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Kathy Ruzicka",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Kelly Proctor",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Sandra Race",
+                    "searchtype": "eduv",
+                    "completions": 5
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Sidney Carter",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2024-11",
+                    "agentname": "Sumit Thorat",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-12",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 21964
+                },
+                {
+                    "month_period": "2024-12",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 38256
+                },
+                {
+                    "month_period": "2024-12",
+                    "agentname": "Brooklyn Fauss",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-12",
+                    "agentname": "Morgan White",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2024-12",
+                    "agentname": "Sandra Race",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 23914
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 36958
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "Akshay Dharne",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "Lucas Michels",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "Marlene Bittner",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-01",
+                    "agentname": "Sidney Carter",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-02",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 21482
+                },
+                {
+                    "month_period": "2025-02",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 36483
+                },
+                {
+                    "month_period": "2025-03",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 23059
+                },
+                {
+                    "month_period": "2025-03",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 38824
+                },
+                {
+                    "month_period": "2025-03",
+                    "agentname": "Bhavesh Gupta",
+                    "searchtype": "empv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-03",
+                    "agentname": "Sandra Race",
+                    "searchtype": "empv",
+                    "completions": 2
+                },
+                {
+                    "month_period": "2025-03",
+                    "agentname": "Tricia Filippone",
+                    "searchtype": "eduv",
+                    "completions": 1
+                },
+                {
+                    "month_period": "2025-04",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 27077
+                },
+                {
+                    "month_period": "2025-04",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 43985
+                },
+                {
+                    "month_period": "2025-04",
+                    "agentname": "Murphy Brown",
+                    "searchtype": "empv",
+                    "completions": 3
+                },
+                {
+                    "month_period": "2025-05",
+                    "agentname": "",
+                    "searchtype": "eduv",
+                    "completions": 1656
+                },
+                {
+                    "month_period": "2025-05",
+                    "agentname": "",
+                    "searchtype": "empv",
+                    "completions": 1866
+                },
+                {
+                    "month_period": "2025-05",
+                    "agentname": "Brenda Nelson",
+                    "searchtype": "empv",
+                    "completions": 1
+                }
+            ]
+        },
+        "agent_completion_uplift": [
+            {
+                "agentname": "",
+                "mean_False": 1.0,
+                "mean_True": 1.0,
+                "count_False": 426611,
+                "count_True": 16249,
+                "delta_completion_pp": 0.0,
+                "p_value": 1.0,
+                "significant": false
+            }
+        ]
+    },
+    "queue_metrics": {
+        "open_queue_age_by_mb": [
+            {
+                "is_mb_row": 0,
+                "MB Count": 383512
+            },
+            {
+                "is_mb_row": 1,
+                "MB Count": 7
+            }
+        ],
+        "first_day_sla_rate": [
+            {
+                "mb_touched": 0,
+                "rate": 0.23074055872500351,
+                "count": 421209
+            },
+            {
+                "mb_touched": 1,
+                "rate": 0.08714032456020729,
+                "count": 21999
+            }
+        ],
+        "weekly_queue_depth": [
+            {
+                "week": "2024-10-01/2024-10-07",
+                "total_open": 8242,
+                "open_gt_sla": 8242,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-10-08/2024-10-14",
+                "total_open": 7146,
+                "open_gt_sla": 7146,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-10-15/2024-10-21",
+                "total_open": 7251,
+                "open_gt_sla": 7251,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-10-22/2024-10-28",
+                "total_open": 7122,
+                "open_gt_sla": 7122,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-10-29/2024-11-04",
+                "total_open": 44045,
+                "open_gt_sla": 44045,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-11-05/2024-11-11",
+                "total_open": 5517,
+                "open_gt_sla": 5517,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-11-12/2024-11-18",
+                "total_open": 8085,
+                "open_gt_sla": 8085,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-11-19/2024-11-25",
+                "total_open": 7405,
+                "open_gt_sla": 7405,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-11-26/2024-12-02",
+                "total_open": 34336,
+                "open_gt_sla": 34336,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-12-03/2024-12-09",
+                "total_open": 6941,
+                "open_gt_sla": 6941,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-12-10/2024-12-16",
+                "total_open": 7160,
+                "open_gt_sla": 7160,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-12-17/2024-12-23",
+                "total_open": 7425,
+                "open_gt_sla": 7425,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-12-24/2024-12-30",
+                "total_open": 4389,
+                "open_gt_sla": 4389,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2024-12-31/2025-01-06",
+                "total_open": 36480,
+                "open_gt_sla": 36480,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-01-07/2025-01-13",
+                "total_open": 6880,
+                "open_gt_sla": 6880,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-01-14/2025-01-20",
+                "total_open": 5746,
+                "open_gt_sla": 5746,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-01-21/2025-01-27",
+                "total_open": 7799,
+                "open_gt_sla": 7799,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-01-28/2025-02-03",
+                "total_open": 37950,
+                "open_gt_sla": 37950,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-02-04/2025-02-10",
+                "total_open": 7714,
+                "open_gt_sla": 7714,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-02-11/2025-02-17",
+                "total_open": 5977,
+                "open_gt_sla": 5977,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-02-18/2025-02-24",
+                "total_open": 7809,
+                "open_gt_sla": 7809,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-02-25/2025-03-03",
+                "total_open": 36536,
+                "open_gt_sla": 36536,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-03-04/2025-03-10",
+                "total_open": 7532,
+                "open_gt_sla": 7532,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-03-11/2025-03-17",
+                "total_open": 7026,
+                "open_gt_sla": 7026,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-03-18/2025-03-24",
+                "total_open": 7269,
+                "open_gt_sla": 7269,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-03-25/2025-03-31",
+                "total_open": 38317,
+                "open_gt_sla": 38317,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-04-01/2025-04-07",
+                "total_open": 7568,
+                "open_gt_sla": 7568,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-04-08/2025-04-14",
+                "total_open": 7852,
+                "open_gt_sla": 7852,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-04-15/2025-04-21",
+                "total_open": 7579,
+                "open_gt_sla": 7579,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-04-22/2025-04-28",
+                "total_open": 7990,
+                "open_gt_sla": 7990,
+                "pct_open_gt_sla": 100.0
+            },
+            {
+                "week": "2025-04-29/2025-05-05",
+                "total_open": 43417,
+                "open_gt_sla": 0,
+                "pct_open_gt_sla": 0.0
+            }
+        ]
+    },
+    "effect_sizes": {
+        "tat_calendar_days": {
+            "cohens_d": -0.021589536603559105,
+            "n_mb": 21999,
+            "n_ctl": 421209
+        },
+        "tat_business_days": {
+            "cohens_d": 0.010247324943019541,
+            "n_mb": 21999,
+            "n_ctl": 421209
+        },
+        "attempts_by_row": {
+            "cohens_d": 0.048921616577913246,
+            "n_mb": 21999,
+            "n_ctl": 421209
+        }
+    },
+    "anova": {
+        "F_statistic": 243.1094837122913,
+        "p_value": 1.2363534873021566e-157,
+        "groups": [
+            "No MB",
+            "Contact Only",
+            "Email Only",
+            "Both"
+        ]
+    },
+    "contact_efficiency": {
+        "email": {
+            "ctl": {
+                "avg_extracted": 0.0,
+                "avg_methods": 0.9552431215857211,
+                "avg_interactions": 0.0,
+                "avg_yield": 0.0
+            },
+            "mb": {
+                "avg_extracted": 0.6416655302513751,
+                "avg_methods": 1.4718396290740487,
+                "avg_interactions": 0.20850947770353198,
+                "avg_yield": 0.1321644383739915
+            }
+        },
+        "phone": {
+            "ctl": {
+                "avg_extracted": 0.0
+            },
+            "mb": {
+                "avg_extracted": 1.162689213146052
+            }
+        },
+        "fax": {
+            "ctl": {
+                "avg_extracted": 0.0
+            },
+            "mb": {
+                "avg_extracted": 0.20960043638347198
+            }
+        }
+    },
+    "category_summary": [
+        {
+            "cap_cat_label": "Both",
+            "tat_calendar_days_count": 1070,
+            "tat_calendar_days_mean": 6.028971962616822,
+            "tat_calendar_days_std": 3.448417414591251,
+            "attempts_by_row_count": 1070,
+            "attempts_by_row_mean": 18.40373831775701,
+            "attempts_by_row_std": 6.772639685759418,
+            "total_contacts_count": 1070,
+            "total_contacts_mean": 3.007476635514019,
+            "total_contacts_std": 3.147145972263627
+        },
+        {
+            "cap_cat_label": "Contact Only",
+            "tat_calendar_days_count": 15060,
+            "tat_calendar_days_mean": 3.7836653386454184,
+            "tat_calendar_days_std": 2.698586320694887,
+            "attempts_by_row_count": 15060,
+            "attempts_by_row_mean": 10.867795484727756,
+            "attempts_by_row_std": 4.710475239775023,
+            "total_contacts_count": 15060,
+            "total_contacts_mean": 2.7282204515272244,
+            "total_contacts_std": 3.4063861766571577
+        },
+        {
+            "cap_cat_label": "Email Only",
+            "tat_calendar_days_count": 2624,
+            "tat_calendar_days_mean": 7.430259146341464,
+            "tat_calendar_days_std": 5.431767075829184,
+            "attempts_by_row_count": 2624,
+            "attempts_by_row_mean": 20.82393292682927,
+            "attempts_by_row_std": 26.8504184374789,
+            "total_contacts_count": 2624,
+            "total_contacts_mean": 0.0,
+            "total_contacts_std": 0.0
+        },
+        {
+            "cap_cat_label": "No MB",
+            "tat_calendar_days_count": 424454,
+            "tat_calendar_days_mean": 4.572585015101755,
+            "tat_calendar_days_std": 6.844812716469385,
+            "attempts_by_row_count": 424454,
+            "attempts_by_row_mean": 11.602527011172,
+            "attempts_by_row_std": 21.64428987107836,
+            "total_contacts_count": 424454,
+            "total_contacts_mean": 0.0,
+            "total_contacts_std": 0.0
+        }
+    ]
+}

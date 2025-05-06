@@ -1,0 +1,254 @@
+{
+    "open_queue_age_by_mb": [
+        {
+            "is_mb_row": false,
+            "age_bucket": "0-2 days",
+            "count": 0
+        },
+        {
+            "is_mb_row": false,
+            "age_bucket": "3-5 days",
+            "count": 41149
+        },
+        {
+            "is_mb_row": false,
+            "age_bucket": "6-10 days",
+            "count": 4983
+        },
+        {
+            "is_mb_row": false,
+            "age_bucket": "11-20 days",
+            "count": 12364
+        },
+        {
+            "is_mb_row": false,
+            "age_bucket": ">20 days",
+            "count": 383512
+        },
+        {
+            "is_mb_row": true,
+            "age_bucket": "0-2 days",
+            "count": 0
+        },
+        {
+            "is_mb_row": true,
+            "age_bucket": "3-5 days",
+            "count": 421
+        },
+        {
+            "is_mb_row": true,
+            "age_bucket": "6-10 days",
+            "count": 64
+        },
+        {
+            "is_mb_row": true,
+            "age_bucket": "11-20 days",
+            "count": 5
+        },
+        {
+            "is_mb_row": true,
+            "age_bucket": ">20 days",
+            "count": 7
+        }
+    ],
+    "first_day_sla_rate": [
+        {
+            "mb_touched": 0,
+            "rate": 0.23074055872500351,
+            "count": 421209
+        },
+        {
+            "mb_touched": 1,
+            "rate": 0.08714032456020729,
+            "count": 21999
+        }
+    ],
+    "weekly_queue_depth": [
+        {
+            "week": "2024-10-01/2024-10-07",
+            "total_open": 8242,
+            "open_gt_sla": 8242,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-10-08/2024-10-14",
+            "total_open": 7146,
+            "open_gt_sla": 7146,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-10-15/2024-10-21",
+            "total_open": 7251,
+            "open_gt_sla": 7251,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-10-22/2024-10-28",
+            "total_open": 7122,
+            "open_gt_sla": 7122,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-10-29/2024-11-04",
+            "total_open": 44045,
+            "open_gt_sla": 44045,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-11-05/2024-11-11",
+            "total_open": 5517,
+            "open_gt_sla": 5517,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-11-12/2024-11-18",
+            "total_open": 8085,
+            "open_gt_sla": 8085,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-11-19/2024-11-25",
+            "total_open": 7405,
+            "open_gt_sla": 7405,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-11-26/2024-12-02",
+            "total_open": 34336,
+            "open_gt_sla": 34336,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-12-03/2024-12-09",
+            "total_open": 6941,
+            "open_gt_sla": 6941,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-12-10/2024-12-16",
+            "total_open": 7160,
+            "open_gt_sla": 7160,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-12-17/2024-12-23",
+            "total_open": 7425,
+            "open_gt_sla": 7425,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-12-24/2024-12-30",
+            "total_open": 4389,
+            "open_gt_sla": 4389,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2024-12-31/2025-01-06",
+            "total_open": 36480,
+            "open_gt_sla": 36480,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-01-07/2025-01-13",
+            "total_open": 6880,
+            "open_gt_sla": 6880,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-01-14/2025-01-20",
+            "total_open": 5746,
+            "open_gt_sla": 5746,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-01-21/2025-01-27",
+            "total_open": 7799,
+            "open_gt_sla": 7799,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-01-28/2025-02-03",
+            "total_open": 37950,
+            "open_gt_sla": 37950,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-02-04/2025-02-10",
+            "total_open": 7714,
+            "open_gt_sla": 7714,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-02-11/2025-02-17",
+            "total_open": 5977,
+            "open_gt_sla": 5977,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-02-18/2025-02-24",
+            "total_open": 7809,
+            "open_gt_sla": 7809,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-02-25/2025-03-03",
+            "total_open": 36536,
+            "open_gt_sla": 36536,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-03-04/2025-03-10",
+            "total_open": 7532,
+            "open_gt_sla": 7532,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-03-11/2025-03-17",
+            "total_open": 7026,
+            "open_gt_sla": 7026,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-03-18/2025-03-24",
+            "total_open": 7269,
+            "open_gt_sla": 7269,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-03-25/2025-03-31",
+            "total_open": 38317,
+            "open_gt_sla": 38317,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-04-01/2025-04-07",
+            "total_open": 7568,
+            "open_gt_sla": 7568,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-04-08/2025-04-14",
+            "total_open": 7852,
+            "open_gt_sla": 7852,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-04-15/2025-04-21",
+            "total_open": 7579,
+            "open_gt_sla": 7579,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-04-22/2025-04-28",
+            "total_open": 7990,
+            "open_gt_sla": 7990,
+            "pct_open_gt_sla": 100.0
+        },
+        {
+            "week": "2025-04-29/2025-05-05",
+            "total_open": 43417,
+            "open_gt_sla": 0,
+            "pct_open_gt_sla": 0.0
+        }
+    ]
+}
